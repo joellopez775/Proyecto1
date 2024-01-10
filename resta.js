@@ -1,9 +1,8 @@
-
-function sumar(){
+function resta(){
     var v1=parseInt(documente.getElementById(valor1).value);
     var v2=parseInt(documente.getElementById(valor2).value);
-    var suma=0;
-    suma=v1+v2;
+    var resta=0;
+    resta=v1-v2;
 
-    document.getElementById("resultado").value=suma;
+    document.getElementById("resultado").value=resta;
 }
