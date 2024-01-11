@@ -10,16 +10,32 @@
     <h3>RESTAR DOS NUMEROS.</h3>
     <form action="">
         <div class="divForm">
-            <div>
-                Valor 1:<input type="number" id="valor1" value="0"><br>
-                Valor 2:<input type="number" id="valor2" value="0"><br>
+            <div class="divForm1">
+                <div class="divcalcu">
+                    Valor 1:<input type="number" id="valor1" value="0"><br>
+                </div>
+                <div class="divcalcu">
+                    Valor 2:<input type="number" id="valor2" value="0"><br>
+                </div>
+            </div>
+            <div class="divForm2">
+                <div class="divxD">
+                    <input type="button" value="Restar" onclick="resta();"><br>
+                </div>
             </div>
             <div>
-                <input type="button" value="Restar" onclick="resta();"><br>
-                Resultado:<input type="number" id="resultado" value="0">
+                <div class="divxD">
+                    <input type="button" value="Sumar" onclick="suma();"><br>
+                </div>
+            </div>
+            <div>
+                <div class="inputDiv">
+                    Resultado:<input type="number" id="resultado" value="0">
+                </div>
             </div>
         </div>
     </form>
     <script src="resta.js"></script>
+    <script src="suma.js"></script>
 </body>
-</html>
+</html> 
